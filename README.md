@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-This repository contains a complete manual testing project performed on the **nopCommerce Demo Website**.
+This repository contains a comprehensive manual testing project conducted on the **nopCommerce Demo Website**.
 
-The project includes functional test case design, execution results, a test summary, and a documented bug report identified during testing.
+The project covers functional testing of major e-commerce modules, including test case design, execution, test summary, and bug reporting.
 
 ---
 
@@ -48,9 +48,9 @@ The project includes functional test case design, execution results, a test summ
 | Metric | Count |
 |---------|------:|
 | Total Test Cases | 304 |
-| Passed | 301 |
+| Passed | 297 |
 | Failed | 1 |
-| Not Executed | 2 |
+| Not Executed | 6 |
 
 ---
 
@@ -62,7 +62,7 @@ The project includes functional test case design, execution results, a test summ
 
 **Summary:**
 
-The **Add to Cart** button is displayed inconsistently on the **Nikon D5500 DSLR** product page. Unlike other product pages, the button is shown only under the product variants instead of within the main product information section.
+The **Add to Cart** button is displayed inconsistently on the **Nikon D5500 DSLR** product page. Unlike other product pages, the button appears only under the product variants instead of within the main product information section, resulting in an inconsistent user experience.
 
 ---
 
@@ -79,11 +79,11 @@ The **Add to Cart** button is displayed inconsistently on the **Nikon D5500 DSLR
 
 ## Repository Structure
 
-```
+```text
 nopCommerce-Manual-Testing
 │
 ├── README.md
-├── Test_Cases.xlsx
+├── nopCommerce_Manual_Test_Cases.xlsx
 └── Screenshots
     └── BUG_001_Add_To_Cart_Button_Inconsistency.png
 ```
@@ -96,8 +96,3 @@ nopCommerce-Manual-Testing
 - Google Chrome
 - GitHub
 
----
-
-## Author
-
-**Shurfa Maliha Lorin**
